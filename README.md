@@ -40,8 +40,10 @@ exit
 # install php
 ```
 sudo apt install php libapache2-mod-php php-mysql
+```
 
 # untuk melihat php terinstall
+```
 cd /var/www/html
 
 sudo nano info.php
