@@ -1,5 +1,16 @@
 # Install-LAMP-Linux-Server
 
+# Mengatur Permition Root
+```
+sudo su
+nano /etc/ssh/sshd_config
+
+// kemudian ubahlah PermitRootLogin without-password menjadi   PermitRootLogin yes
+
+nano /etc/ssh/ssh_config
+
+// hilangkan tanda pagar pada PasswordAuthentication yes
+```
 # install Apache
 ```
 sudo apt install apache2
