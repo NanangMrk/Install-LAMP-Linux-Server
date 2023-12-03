@@ -10,6 +10,8 @@ nano /etc/ssh/sshd_config
 nano /etc/ssh/ssh_config
 
 //hilangkan tanda pagar pada PasswordAuthentication yes
+
+passwd root
 ```
 # install Apache
 ```
